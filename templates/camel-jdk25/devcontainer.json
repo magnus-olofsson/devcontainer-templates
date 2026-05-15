@@ -1,0 +1,27 @@
+{
+  "name": "Java 25 + Camel + Spring Boot",
+  "image": "my-camel-jdk25",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "redhat.java",
+        "vscjava.vscode-java-pack",
+        "redhat.vscode-xml",
+        "redhat.vscode-apache-camel",
+        "vscjava.vscode-spring-boot-dashboard",
+        "vmware.vscode-spring-boot"
+      ],
+      "settings": {
+        "java.jdt.ls.java.home": "/opt/java/openjdk",
+        "spring-boot.ls.java.home": "/opt/java/openjdk",
+        "editor.formatOnSave": true
+      }
+    }
+  },
+  "forwardPorts": [
+    8080,
+    8443
+  ],
+  "postCreateCommand": "mvn --version && camel --version",
+  "remoteUser": "root"
+}
