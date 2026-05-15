@@ -1,6 +1,6 @@
 {
-  "name": "Devcontainer for .NET projects",
-  "image": "devcontainer-dotnet-10",
+  "name": "Devcontainer for .NET Nightly SDK",
+  "image": "devcontainer-dotnet-nightly",
   "customizations": {
     "vscode": {
       "extensions": [

@@ -1,6 +1,6 @@
 {
-  "name": "Java 25 + Camel + Spring Boot",
-  "image": "my-camel-jdk25",
+  "name": "Devcontainer for Java 25 + Camel + Spring Boot",
+  "image": "devcontainer-camel-jdk25",
   "customizations": {
     "vscode": {
       "extensions": [
